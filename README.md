@@ -6,7 +6,7 @@ It was developed using PyQT6 framework for GUI applications and python  version 
 In this program one can set sell values as non-negative floats/ints or bc.
 Here bc stands for blocked cell. It means that a path cannot go through a bc cell.
 
-Current implementation supports four ways to find the shortedst path: dfs, bfs, dijkstra and A-star
+Current implementation supports four ways to find the shortest path: dfs, bfs, dijkstra and A-star
 and can work properly with any grid with size up to 15x15 cells.
 
 In the future I have plans to modify the current implementation, adding possibility to load
@@ -29,12 +29,12 @@ to the input boxes and fill grid with *default value*.
 Note that regardless of 
 what you see the program assumes that cell values at start point (bottom left) and end point (top right) are equal to zero.
 
-![plot](./images/make_grid.png)
+![a grid created](/images/make_grid.png)
 
 After you set your grid you should select the way you want to use for searching the shortest path from
 bottom left to top right cell and press *search path*. You will get this:
 
-![plot](./images/search_path.png)
+![the shortest path had been found](/images/search_path.png)
 
 Then you have to clear the results pressing *Create grid* if you want to find the sortest path
 with another method/grid.
